@@ -1,0 +1,224 @@
+/** Importando as fontes */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+
+/** Configuração inicial da página */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/** Configurando o adote-container */
+
+.adote-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/** Configurando o adote-header h1 */
+
+.adote-header h1 {
+  font-family: 'Sour Gummy';
+  font-size: 50px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/** Configurando o adote-actions */
+
+.adote-actions {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 10px;
+}
+
+.adote-actions a {
+  font-family: 'Poppins';
+  text-decoration: none;
+  font-weight: 600;
+  color: #86bcc3;
+  font-size: 20px
+}
+
+.adote-actions a:hover {
+  color: #37828c;
+  text-decoration: underline;
+}
+
+/** Configurando o separador */
+
+.separar {
+  font-size: 30px;
+  font-weight: bolder;
+}
+
+/** Configurando as linhas */
+
+.linha-adote {
+  border: 2px solid #86bcc3;
+  border-radius: 20px;
+  margin-bottom: 20px;
+}
+
+.linha-adote2 {
+  border: 2px solid #86bcc3;
+  border-radius: 20px;
+  margin-top: 20px;
+}
+
+/** Configurando o botão de filtro */
+
+.filtro-btn {
+  cursor: pointer;
+  background: none;
+  border: none;
+  font-family: 'Poppins';
+  font-size: 20px;
+  font-weight: 600;
+  color: #86bcc3;
+}
+
+.filtro-btn:hover {
+  color: #37828c;
+  text-decoration: underline;
+}
+
+/**! Configurando os filtros e suas divs */
+
+.container-filtros {
+  margin-top: 20px;
+  border-radius: 30px;
+  background: #ddd;
+  width: 30%;
+}
+
+.filtro-container {
+  display: flex;
+  margin-top: 5px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+.filtro-container label {
+  font-family: 'Poppins';
+  text-align: center;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.filtro-container select {
+  font-family: 'Poppins';
+  width: 50%;
+  padding: 5px;
+  font-size: 20px;
+  font-weight: 400;
+  border-radius: 20px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.filtro-container option {
+  font-family: 'Poppins';
+  font-size: 20px;
+  font-weight: 600;
+  color: #86bcc3;
+}
+
+/**! Configurando o botão de filtrar */
+
+.filtrar-btn {
+  cursor: pointer;
+  background: #86bcc3;
+  border: none;
+  border-radius: 30px;
+  width: 30%;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  font-family: 'Poppins';
+  font-size: 20px;
+  font-weight: 600;
+  color: #fff;
+}
+
+.filtrar-btn:hover {
+  background-color: #37828c;
+}
+
+/** Configurando a mensagem de erro*/
+
+.error-message {
+  color: red;
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+/**! Configurando o card e tudo dentro dele */
+
+.pets-grid {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  gap: 20px;
+}
+
+/**! Configurando o pet-card */
+
+.pet-card {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 30px;
+  padding: 20px;
+  width: 45%;
+}
+
+.pet-card:hover {
+  background-color: #f2f2f2;
+}
+
+.pet-card img {
+  border: 2px solid #ddd;
+  border-radius: 25px;
+  width: 100%;
+}
+
+.pet-card h2 {
+  font-family: 'Poppins';
+  font-size: 28px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.pet-card p {
+  font-family: 'Poppins';
+  font-size: 18px;
+  text-align: center;
+}
+
+/**! Configurando o botão Ver */
+
+.ver-btn {
+  background: #86bcc3;
+  border: none;
+  border-radius: 20px;
+  width: 50%;
+  font-family: 'Poppins';
+  font-size: 18px;
+  font-weight: 600;
+  color: #fff;
+  text-align: center;
+  margin-top: 10px;
+  margin-left: 60px;
+}
+
+.ver-btn:hover {
+  background: #37828c;
+}

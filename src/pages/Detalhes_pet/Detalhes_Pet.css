@@ -1,0 +1,122 @@
+/** Importando as fontes */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+
+/** Configuração inicial da página */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Configurando o container do detalhes-pet */
+
+.detalhes-pet-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.pet-info {
+    background-color: #fff;
+    width: 50%;
+    padding: 10px;
+    box-shadow: 3px 3px 3px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 30px;
+}
+
+/*! Mexendo na div pet-info */
+
+.pet-info img {
+    margin-left: 30%;
+    background-color: #fff;
+    width: 40%;
+    border: 2px solid #ccc;
+    border-radius: 400px;
+    margin-top: 20px;
+    margin-bottom: 3px;
+}
+
+.pet-info h1 {
+    text-align: center;
+    font-family: 'Sour Gummy';
+    font-size: 40px;
+}
+
+.pet-info p {
+    font-family: 'Poppins';
+    font-size: 18px;
+    font-weight: 300;
+    display: flex;
+    margin-right: 15px;
+    margin-left: 15px;
+    justify-content: center;
+}
+
+.pet-info strong {
+    margin-right: 5px;
+}
+
+.actions {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+    width: 100%;
+}
+
+.like-btn {
+    background-color: #86bcc3;
+    text-align: center;
+    margin-bottom: 10px;
+    font-family: 'Poppins';
+    border: none;
+    font-size: 18px;
+    padding: 6px;
+    margin-left: 80px;
+    border-radius: 30px;
+}
+
+.chat-btn {
+    background-color: #86bcc3;
+    text-align: center;
+    margin-bottom: 10px;
+    font-family: 'Poppins';
+    border: none;
+    font-size: 18px;
+    padding: 6px;
+    border-radius: 30px;
+    margin-right: 80px;
+}
+
+/* Configuração da aside*/
+
+.more-pets {
+    border: none;
+    border-left: 2px solid #ccc;
+    border-radius: 20px;
+    width: 40%;
+    height: 550px;
+}
+
+.more-pets h2 {
+    margin-left: 10px;
+    text-align: center;
+    font-family: 'Sour Gummy';
+    font-size: 30px;
+}
+
+.pets-grid h3 {
+    font-family: 'Sour Gummy';
+    text-align: center;
+    font-size: 25px;
+}
+
+.pets-grid {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.more-pets img {
+    width: 100%;
+}

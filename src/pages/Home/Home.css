@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.home-container {
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+section {
+  margin: 30px 0;
+}
+
+.welcome {
+  justify-content: center;
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  padding: 20px;
+}
+
+.title {
+  justify-content: center;
+  font-family: 'Poppins';
+  align-items: center;
+  text-align: center;
+  margin-left: 50px;
+  margin-top: 110px;
+  width: 60%;
+}
+
+.title h3 {
+  font-weight: 500;
+}
+
+.title h1 {
+  color: #197182;
+  font-size: 60px;
+}
+
+.welcome-image img {
+  border-radius: 100%;
+  width: 50%;
+}
+
+/** Disponíveis para Adoção */
+
+.adoption-section {
+  font-family: 'Sour Gummy';
+  font-weight: 700;
+  font-size: 25px;
+  padding: 15px;
+  color: #83bcc3 ;
+}
+.pet-cards {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.pet-card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 10px;
+  width: 150px;
+}
+
+/** Ajude o PetFinder */
+
+.help-section {
+  background-color: #83bcc3;
+}
+
+.help-section h1 {
+  font-family: 'Sour Gummy';
+  font-weight: 700;
+  font-size: 45px;
+  padding: 15px;
+  color: #fff;
+}
+
+.card-container {
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+  background-color: #fff;
+  border-radius: 15px;
+  font-size: 15px;
+  width: 20%;
+  margin-left: 10px;
+
+  & .card-btn {
+    width: 30%;
+    height: 35px;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    background-color: #37828c;
+    font-weight: 500;
+    margin-bottom: 10px;
+    border-radius: 30px;
+  }
+
+  & .card-btn:hover {
+    background-color: #197182;
+  }
+
+}
+
+.card h3 {
+  font-family: 'Poppins';
+  margin-left: 10px;
+  text-align: left;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.card p{
+  text-align: left;
+  font-family: 'poppins';
+  margin-left: 30px;
+  margin-bottom: 5px;
+}
+
+.card img {
+  width: 50%;
+}
+
+/** Quiz */
+
+.quiz-container {
+  background-color: #83bcc3;
+}
+
+.quiz-container h1 {
+  font-family: 'Sour Gummy';
+  font-weight: 700;
+  font-size: 45px;
+  padding: 10px;
+  color: #fff;
+}
+
+.container-quiz {
+  display: flex;
+  justify-content: center;
+}
+
+.quiz {
+  background-color: #fff;
+  width: 30%;
+  border-radius: 15px;
+}
+
+.quiz p {
+  font-family: 'Poppins';
+  padding: 20px;
+  font-size: 20px;
+  font-weight: 500;
+  margin-top: 20px;
+}
+
+.quiz img {
+  width: 30%;
+}
+
+.quiz-btn {
+  width: 30%;
+  color: #fff;
+  border: none;
+  height: 40px;
+  font-size: 20px;
+  margin-top: 10px;
+  font-weight: 500;
+  border-radius: 30px;
+  cursor: pointer;
+  font-family: 'Poppins';
+  background-color: #37828c;
+}
+
+.quiz-btn:hover {
+  background-color: #197182;
+}

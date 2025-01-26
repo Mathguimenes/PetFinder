@@ -1,0 +1,139 @@
+/** Importação das fontes */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+
+/** Configuração inicial da página */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+ /** Configuração do container de cadastro */
+  /** Inserir plano de fundo, e ajustar o conteudo no cetro da tela*/
+.signup-container {
+  background: 
+  linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1)),
+  url("https://firebasestorage.googleapis.com/v0/b/instagrama-76a12.appspot.com/o/images%2FDesign%20sem%20nome%20(2).png?alt=media&token=eab9b372-68c1-4302-a2a3-cbfe943f8560");
+  display: flex;
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+/** Configuração da Div signup -> antes do form, estilo geral*/
+
+.signup {
+  box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.2);
+  background-color: #fff;
+  border-radius: 30px;
+  height: 700px;
+  width: 25%;
+  padding: 30px;
+}
+
+/** Configuração do botão login */
+
+.login-button {
+  border: none;
+  font-size: 17px;
+  font-family: 'Poppins';
+  font-weight: 600;
+  background: none;
+  margin-top: 3px;
+}
+
+.login-button a {
+  color: #86bcc3;
+  text-decoration: none;
+}
+
+.login-button a:hover {
+  color: #37828c;
+  text-decoration: underline;
+}
+
+/** Configuração da Linha */
+
+.linha-signup {
+  border: 2px solid #86bcc3;
+  border-radius: 30px;
+}
+
+.linha-signup2 {
+  border: 2px solid #86bcc3;
+  border-radius: 30px;
+  margin-bottom: 10px;
+  margin-top: 20px;
+}
+
+/** Configuração do h1 */
+
+.signup h1{
+  font-family: 'Sour Gummy';
+  text-align: center;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  font-size: 45px;
+}
+
+/** Configuração do Label do form */
+
+.signup label {
+  font-family: 'Poppins';
+  font-size: 20px;
+  font-weight: 300;
+}
+
+/** Configuração dos Inputs */
+
+.signup input {
+  margin-top: 10px;
+  border-radius: 20px;
+  border: 1px solid;
+  margin-bottom: 10px;
+  text-align: center;
+  margin-left: 50px;
+  font-size: 20px;
+  padding: 6px;
+  width: 80%;
+}
+
+.signup input:focus::placeholder{
+  color: transparent;
+}
+
+/** Configuração do Placeholder */
+
+.signup input::placeholder {
+  font-family: 'Poppins';
+  font-size: 23px;
+}
+
+/** Configuração do Botão */
+
+.signup-btn {
+  font-family: 'Poppins';
+  border: none;
+  padding: 5px;
+  font-size: 25px;
+  color: white;
+  border-radius: 20px;
+  font-weight: 500;
+  margin-left:35%;
+  background-color: #86bcc3;
+  width: 30%;
+}
+
+.signup-btn:hover {
+  background-color: #37828c;
+}
+
+/** Configuração do Separador */
+
+.separador {
+  margin-top: 20px;
+}
+
+.separador2 {
+  margin-top: 20px;
+}
